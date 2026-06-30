@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-de-fondo: #FFF6F8;
+    --color-de-fondo-secundario: #D6B4F0;
+    --color-de-fondo-secciones: #7D8FF2;
+    --color-de-titulos: #1A1F2E;
+    --color-de-enlace: #FFB7D5;
+    --color-de-texto: #0B3D5C;
+    --color-detalles: #FFD7A8;
+}
