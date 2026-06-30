@@ -203,3 +203,26 @@ h1,h2,h3 {
 .portfolio__button:hover{
     background-color: var(--color-de-fondo-secciones);
 }
+
+/* Estilos para sección contacto */
+.contact{
+    width:100%;
+    background:var(--color-de-fondo-secciones);
+    padding:80px;
+    text-align:center;
+}
+.contact__title{
+    margin-bottom:50px;
+    font-size: 38px;
+}
+.contact__content{      
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+}
+.contact__description{
+    font-size: 40px;
+    line-height: 1.6;
+    text-align: center;
+}   
+
