@@ -225,4 +225,14 @@ h1,h2,h3 {
     line-height: 1.6;
     text-align: center;
 }   
-
+/* Estilos para el footer */
+footer{
+    width:100%;
+    background:var(--color-de-fondo-secundario);
+    padding:20px;
+    text-align:center;
+}
+.footer__copyright{
+    font-size: 16px;
+    color:var(--color-de-texto);
+}   
