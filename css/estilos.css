@@ -32,24 +32,42 @@ h1,h2,h3 {
     padding:20px;
 }
 
-.header__profile{
-    width:20%;
-    display:inline-block;
-    vertical-align:middle;
-}
-
 .header__nav{
-    width:75%;
+    width:90%;
     display:inline-block;
     vertical-align:middle;
-    text-align:right;
+    text-align:center;
 }
 
 .header__nav a{
     display:inline-block;
     margin-left:30px;
-    text-decoration:none;
     color:var(--color-de-texto);
 }
-   
 
+/* Estilos para el inicio */
+.inicio{
+    width:100%;
+    background:var(--color-de-fondo-secciones);
+    padding:20px;
+    text-align:center;
+}
+.inicio__profile{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:40px;
+    padding-left:0%;
+}
+
+.inicio__content{
+    display:inline-block;
+    vertical-align:middle;
+    text-align:left;
+}
+
+.inicio__title{
+    margin-bottom:20px;
+}
+.inicio__description{
+    font-size: 22px;
+}
