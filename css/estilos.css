@@ -109,3 +109,40 @@ h1,h2,h3 {
     line-height: 1.6;
     text-align: justify;
 }
+/* Estilos para sección skills */
+.skills{
+    width:100%;
+    background:var(--color-de-fondo-secciones);
+    padding:80px;
+    text-align:center;
+}
+
+.skills__title{
+    margin-bottom:50px;
+    font-size: 38px;
+}
+
+.skills__content{
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+}
+.skills__item{
+    margin: 15px;
+    width: 45%;
+    display:inline-block;
+    padding: 20px;
+    border: 3px solid var(--color-de-fondo);
+    border-radius: 20px;
+    background:var(--color-de-fondo-secundario);
+}
+.skills__subtitle{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:var(--color-de-titulos);
+    text-align: center;
+}
+.skills__list{
+    list-style: none;
+    text-align: center;
+}
