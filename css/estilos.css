@@ -112,7 +112,7 @@ h1,h2,h3 {
 /* Estilos para sección skills */
 .skills{
     width:100%;
-    background:var(--color-de-fondo-secciones);
+    background-image: url("/Portafolio/imagenes/banner_skills.png");
     padding:80px;
     text-align:center;
 }
