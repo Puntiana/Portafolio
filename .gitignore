@@ -19,5 +19,6 @@ rad.json
 #License-files
 *.bclicense
 *.flf
+.DS_Store
 #Test results file
 TestResults.xml
