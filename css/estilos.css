@@ -24,3 +24,32 @@ h1,h2,h3 {
     font-family:"Space Grotesk",sans-serif;
     color:var(--color-de-titulos);
 }
+
+/* Estilos para el header */
+
+.header{
+    background:var(--color-de-fondo-secundario);
+    padding:20px;
+}
+
+.header__profile{
+    width:20%;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.header__nav{
+    width:75%;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:right;
+}
+
+.header__nav a{
+    display:inline-block;
+    margin-left:30px;
+    text-decoration:none;
+    color:var(--color-de-texto);
+}
+   
+
