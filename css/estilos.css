@@ -213,18 +213,27 @@ h1,h2,h3 {
 }
 .contact__title{
     margin-bottom:50px;
-    font-size: 38px;
 }
-.contact__content{      
-    width:90%;
-    margin:0 auto;
-    text-align:center;
-}
+
 .contact__description{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.6;
     text-align: center;
+    margin-bottom: 20px;
 }   
+.contact__link{
+    display: inline-block;
+    margin: 0 20px;
+}
+.contact__icon{
+    background:var(--color-de-fondo-secundario);
+    border: 3px solid var(--color-de-fondo);
+    border-radius: 50%;
+}
+.contact__icon:hover{
+    border-color: var(--color-de-fondo-secciones);
+}
+
 /* Estilos para el footer */
 footer{
     width:100%;
